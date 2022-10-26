@@ -1,0 +1,122 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.head {
+    /* background-color: #D33848; */
+    position: fixed;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+    /* padding-left: 10px; */
+}
+
+.header {
+    background-color: #D33848;
+    position: absolute;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+    padding-left: 10px;
+}
+
+.search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80vw;
+    top: 37.98%;
+}
+
+.menu {
+    position: absolute;
+    left: 90vw;
+    right: 0%;
+    top: 37.98%;
+    bottom: 19.03%;
+    width: 24px;
+    height: 24px;
+}
+
+.profile-pic {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 10.47vh;
+    left: calc(1/2 * (100vw - 130px));
+}
+
+.pro-pic {
+    position: absolute;
+    border-radius: 10em;
+}
+
+.name {
+    position: absolute;
+    width: 100vw;
+    height: 28px;
+    top: 28vh;
+    text-align: center;
+    /* font-family: 'Epilogue'; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+
+.username {
+    position: absolute;
+    width: 100vw;
+    height: 20px;
+    top: 31vh;
+    text-align: center;
+    /* font-family: 'Epilogue'; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #555555;
+    text-align: center;
+}
+
+.follows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.following {
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    /* left: calc(1/2 * (100vw - 230px)); */
+    top: 35vh;
+    /* font-family: 'Epilogue'; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.followers {
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    /* right: calc(1/2 * (100vw - 230px)); */
+    top: 35vh;
+    /* font-family: 'Epilogue'; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+}
