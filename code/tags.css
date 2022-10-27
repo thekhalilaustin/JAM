@@ -1,0 +1,10 @@
+.image {
+    width: 80px;
+    border-radius: 3em;
+}
+
+.img {
+    /* border-radius: 1em; */
+    width: 120px;
+    background-color: black;
+}

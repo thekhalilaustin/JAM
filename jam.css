@@ -3,12 +3,10 @@ body {
 }
 
 .head {
-    /* background-color: #D33848; */
     position: fixed;
     width: 100vw;
     left: 0px;
     top: 0px;
-    /* padding-left: 10px; */
 }
 
 .header {
@@ -42,7 +40,7 @@ body {
     position: absolute;
     width: 130px;
     height: 130px;
-    top: 10.47vh;
+    top: 15.47vh;
     left: calc(1/2 * (100vw - 130px));
 }
 
@@ -55,10 +53,10 @@ body {
     position: absolute;
     width: 100vw;
     height: 28px;
-    top: 28vh;
+    top: 35vh;
     text-align: center;
-    /* font-family: 'Epilogue'; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Epilogue';
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -71,10 +69,10 @@ body {
     position: absolute;
     width: 100vw;
     height: 20px;
-    top: 31vh;
+    top: 38vh;
     text-align: center;
-    /* font-family: 'Epilogue'; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Epilogue';
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -86,17 +84,17 @@ body {
 .follows {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .following {
     position: absolute;
     width: 128px;
     height: 20px;
-    /* left: calc(1/2 * (100vw - 230px)); */
-    top: 35vh;
-    /* font-family: 'Epilogue'; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: calc(1/2 * (100vw - 230px));
+    top: 42vh;
+    font-family: 'Epilogue';
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -109,14 +107,68 @@ body {
     position: absolute;
     width: 128px;
     height: 20px;
-    /* right: calc(1/2 * (100vw - 230px)); */
-    top: 35vh;
-    /* font-family: 'Epilogue'; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: calc(1/2 * (100vw - 230px));
+    top: 42vh;
+    font-family: 'Epilogue';
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
     color: #000000;
     text-align: center;
+}
+
+.info {
+    position: absolute;
+    width: calc((91.47 / 100) * 100vw);
+    height: 292.93px;
+    left: calc(1/2 * ((8.53 / 100) * 100vw));
+    top: 430px;
+    background-color: #a3deeb;
+    border-radius: 32px;
+}
+
+.phone {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 4vh;
+    left: 5vw;
+}
+
+.mobile {
+    position: absolute;
+    width: 100vw;
+    height: 20px;
+    top: 4vh;
+    left: 15vw;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.location {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 9vh;
+    left: 5vw;
+}
+
+.city {
+    position: absolute;
+    width: 100vw;
+    height: 20px;
+    top: 9vh;
+    left: 15vw;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
 }
