@@ -40,7 +40,7 @@ body {
     position: absolute;
     width: 130px;
     height: 130px;
-    top: 15.47vh;
+    top: 103.19px;
     left: calc(1/2 * (100vw - 130px));
 }
 
@@ -53,7 +53,7 @@ body {
     position: absolute;
     width: 100vw;
     height: 28px;
-    top: 35vh;
+    top: 266.8px;
     text-align: center;
     font-family: 'Epilogue';
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -69,7 +69,7 @@ body {
     position: absolute;
     width: 100vw;
     height: 20px;
-    top: 38vh;
+    top: 293.48px;
     text-align: center;
     font-family: 'Epilogue';
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -92,7 +92,7 @@ body {
     width: 128px;
     height: 20px;
     left: calc(1/2 * (100vw - 230px));
-    top: 42vh;
+    top: 333.5px;
     font-family: 'Epilogue';
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-style: normal;
@@ -108,7 +108,7 @@ body {
     width: 128px;
     height: 20px;
     right: calc(1/2 * (100vw - 230px));
-    top: 42vh;
+    top: 333.5px;
     font-family: 'Epilogue';
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-style: normal;
@@ -171,4 +171,107 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #333333;
+}
+
+.follow-share-more {
+    position: absolute;
+    width: 251.77px;
+    height: 40.02px;
+}
+
+.follow-btn, .share, .more {
+    box-sizing: border-box;
+    position: absolute;
+    height: 40px;
+    border: 1px solid #333333;
+}
+
+.follow-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 9px 30px 7px;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: #a3deeb;
+    width: 144px;
+}
+
+.heart {
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 30px;
+}
+
+.follow {
+    width: 52px;
+    height: 24px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.share {
+    width: 40px;
+    left: 160px;
+    border-radius: 2em;
+    background-color: #a3deeb;
+}
+
+.upload {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 9px;
+    left: 10px;
+}
+
+.more {
+    width: 40px;
+    left: 216px;
+    border-radius: 2em;
+    background-color: #a3deeb;
+}
+
+.more-horiz {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 9px;
+    left: 10px;
+}
+
+.joined {
+    position: absolute;
+    width: 186px;
+    height: 20px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #555555;
+}
+
+.extra {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+
+@media only screen and (max-width: 420px) {
+    .username {
+        font-size: 15px;
+    }
 }
