@@ -175,8 +175,10 @@ body {
 
 .follow-share-more {
     position: absolute;
-    width: 251.77px;
+    width: 67.14vw;
     height: 40.02px;
+    left: calc(1/2 * (91.47vw - 67.14vw));
+    top: 180px;
 }
 
 .follow-btn, .share, .more {
@@ -251,8 +253,11 @@ body {
 
 .joined {
     position: absolute;
-    width: 186px;
+    width: 45.38vw;
     height: 20px;
+    left: calc(1/2 * (91.47vw - 45.38vw));
+    top: 250px;
+    text-align: center;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
@@ -261,12 +266,25 @@ body {
     color: #555555;
 }
 
-.extra {
+.posts {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* text-align: center; */
+    top: 780px;
+    left: calc(1/2 * (100vw - 36.92vw));
+    text-align: center;
+    padding: 9px 30px 7px;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: #a3deeb;
+    width: 144px;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid #333333;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
 }
 
 
